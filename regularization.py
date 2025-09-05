@@ -46,6 +46,9 @@ print(np.sqrt(mean_squared_error(test_y,pred2)))
 print(np.sqrt(mean_squared_error(test_y,pred3))) #this shows a higher error compares to the above model since some coefficients got zero
 print(np.sqrt(mean_squared_error(test_y,pred4))) #this also shows a higher error compares to the above model since some coefficients got zero
 
+
+
+#cross validation in different way
 kf=KFold(n_splits=5)
 
 RMSE=[]
