@@ -29,7 +29,7 @@ model.fit(x_train,y_train) #now the association has created--> y=b0+b1x1+b2x2+b3
 
 
 #r2 value says the how well your model is
-# r2 = model.score(x_test, y_test)*100
+r2 = model.score(x_test, y_test)*100
 # print("R² score:", r2)
 
 y_pred=model.predict(x_test)

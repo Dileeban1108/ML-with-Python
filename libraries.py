@@ -49,7 +49,7 @@ df=pd.DataFrame(e)
 # print(df)
 
 # drop the column from the data frame but not from the actual data frame
-# print(df.drop(["name"],axis=1,inplace=True))
+# print(df.drop(["name"],axis=1)
 # print(df)
 
 #count the number of values
